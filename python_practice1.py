@@ -5,11 +5,14 @@
 #     if y == 10:
 #         print("Yes")
 
-str = 'black eagles'
+# str = 'black eagles'
 
-try:
-    astr = int(str)
-except:
-    astr = -1
+# try:
+#     astr = int(str)
+# except:
+#     astr = -1
 
-print(astr)
+# print(astr)
+
+for i in [2, 1, 5]:
+    print(i)
