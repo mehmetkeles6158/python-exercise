@@ -33,13 +33,28 @@
 #     c -= 1
 
 
-nums = [1, 2, 3, 4, 5]
+# nums = [1, 2, 3, 4, 5]
+# sum = 0
+# i = 0
 
-sum = 0
-i = 0
+# while i < len(nums):
+#     sum = sum + nums[i]
+#     i += 1
 
-while i < len(nums):
-    sum = sum + nums[i]
-    i += 1
+# print(sum)
 
-print(sum)
+# numbers = [7, 14, 21, 8, 32, 49]
+
+# i = 0
+# while True:
+#     response = numbers[i]
+#     if response % 7 == 0:
+#         break
+#     i += 1
+
+# print(response)
+
+while True:
+    response = input()
+    if int(response) % 7 == 0:
+        break
