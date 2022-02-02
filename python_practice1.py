@@ -17,10 +17,17 @@
 # for i in [2, 1, 5]:
 #     print(i)
 
-smallest = None
-print("Before:", smallest)
-for itervar in [3, 41, 12, 9, 74, 15]:
-    if smallest is None or itervar < smallest:
-        smallest = itervar
-    print("Loop:", itervar, smallest)
-print("Smallest:", smallest)
+# smallest = None
+# print("Before:", smallest)
+# for itervar in [3, 41, 12, 9, 74, 15]:
+#     if smallest is None or itervar < smallest:
+#         smallest = itervar
+#     print("Loop:", itervar, smallest)
+# print("Smallest:", smallest)
+
+
+c = 5
+
+while c > 0:
+    print(c)
+    c -= 1
