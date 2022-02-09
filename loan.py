@@ -17,3 +17,8 @@ money_owed = money_owed + interest_paid
 
 # Make Payment
 money_owed = money_owed - payment
+
+# Print the results after this month
+
+print("Paid", payment, "of which", interest_paid, "was interest.")
+print("Now I owe", money_owed)
